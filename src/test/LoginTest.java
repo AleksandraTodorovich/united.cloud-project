@@ -37,7 +37,7 @@ public class LoginTest {
 		Thread.sleep(1000);
 	}
 
-	@Test(priority = 1)
+	@Test
 	public void logInTest() throws InterruptedException {
 		loginPage.logIn("aleksandra.todorovic", "Lozinka123");
 		Thread.sleep(1000);
